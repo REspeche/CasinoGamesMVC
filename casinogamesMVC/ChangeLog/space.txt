@@ -1,0 +1,13 @@
+18/12/2015
+- FULL SCREEN feature added 
+- Event handler for WordPress plugin CTL Arcade: http://codecanyon.net/item/ctl-arcade-wordpress-plugin/13856421
+23/08/2016:
+-Readme file updated 
+- Bug fixed with win occurrence
+01/04/2017:
+- Credits Panel added with show/hide features
+- Orientation alert added
+- Button fullscreen added
+- Bug fixed with soundtrack on IOS devices
+- Bug fixed with Retina display
+- Bug fixed with hold feature and bonus panel

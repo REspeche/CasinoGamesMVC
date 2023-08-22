@@ -1,0 +1,6 @@
+24/08/2016:
+- Readme file updated - Bux fixed in neighbor panel - Added current bet panel 
+30/03/2017:
+- Credits Panel added with show/hide feature
+- Orientation alert added
+- Button fullscreen added

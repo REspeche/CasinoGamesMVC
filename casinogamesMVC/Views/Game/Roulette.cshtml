@@ -1,0 +1,11 @@
+﻿@section style
+{
+    @Styles.Render("~/Css/Roulette")
+}
+@section script
+{
+    <script src="@Url.Content("~/Resource/Roulette")"></script>
+    @Scripts.Render("~/Js/Roulette")
+    <link rel="manifest" href="manifest.json">
+}
+<canvas id="canvas" class='ani_hack' width="1280" height="768"> </canvas>

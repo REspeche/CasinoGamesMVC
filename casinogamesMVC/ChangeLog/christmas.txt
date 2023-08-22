@@ -1,0 +1,6 @@
+15/12/2015: 
+- Added Event handler for wordpress plugin: http://codecanyon.net/item/ctl-arcade-wordpress-plugin/13856421
+- Bug fixed on slot cash calculation
+24/08/2016:
+- Readme file updated 
+- Bug fixed with win occurrence

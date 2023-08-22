@@ -1,0 +1,10 @@
+﻿@section style
+{
+    @Styles.Render("~/Css/Keno")
+}
+@section script
+{
+    <script src="@Url.Content("~/Resource/Keno")"></script>
+    @Scripts.Render("~/Js/Keno")
+}
+<canvas id="canvas" class='ani_hack' width="1920" height="1080"> </canvas>

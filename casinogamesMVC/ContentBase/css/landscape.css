@@ -1,0 +1,18 @@
+﻿#warning_message { 
+    display: none; 
+    color: #fff;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 3.5vw;
+    line-height: 100vh;
+}
+
+@media only screen and (orientation:portrait){
+    #canvas { display:none; }
+    #warning_message { display:block; }
+}
+
+@media only screen and (orientation:landscape){
+    #canvas { display:block; }
+    #warning_message { display:none; }
+}

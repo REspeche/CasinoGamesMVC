@@ -1,0 +1,10 @@
+﻿@section style
+{
+    @Styles.Render("~/Css/Soccer")
+}
+@section script
+{
+    <script src="@Url.Content("~/Resource/Soccer")"></script>
+    @Scripts.Render("~/Js/Soccer")
+}
+<canvas id="canvas" class='ani_hack' width="1500" height="768"> </canvas>

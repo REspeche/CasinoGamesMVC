@@ -1,0 +1,7 @@
+20/01/2016:
+-Small bug fixed with CTL Arcade: http://codecanyon.net/item/ctl-arcade-wordpress-plugin/13856421
+03/02/2016:
+- Bug fixed in paytable
+- Bug fixed with win calculation
+23/06/2016:
+-Bug fixed with money calculation in bonus 

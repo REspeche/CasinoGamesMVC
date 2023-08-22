@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="@Session["locale"]">
+<head>
+    <title></title>
+
+    @RenderSection("style")
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,minimal-ui" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    @{
+        bool debug = false;
+        string credito = "1";
+        string returnURL = "";
+        string callbackURL = "";
+        string callbacktoken = "";
+
+        if (Request["debug"] != null && Request["debug"] != "") { debug = (Request["debug"]=="1")?true:false; }
+        if (Request["credito"] != null && Request["credito"] != "") { credito = Request["credito"]; }
+        if (Request["returnurl"] != null && Request["returnurl"] != "") { returnURL = Request["returnurl"]; }
+        if (Request["callback"] != null && Request["callback"] != "") { callbackURL = Request["callback"]; }
+        if (Request["callbacktoken"] != null && Request["callbacktoken"] != "") { callbacktoken = Request["callbacktoken"]; }
+
+        <script>
+            var debug = @debug.ToString().ToLower();
+            var credito = @credito;
+            var returnURL = function () {location.href=decodeURIComponent('@returnURL');}
+            var callbackURL = '@(@callbackURL)';
+            var callbacktoken = '@(@callbacktoken)';
+        </script>
+    }
+
+    @RenderSection("script", required: true)
+</head>
+<body ondragstart="return false;" ondrop="return false;">
+    <div style="position: fixed; background-color: transparent; top: 0px; left: 0px; width: 100%; height: 100%"></div>
+    @RenderBody()
+    <div data-orientation="landscape" class="orientation-msg-container"><p class="orientation-msg-text">@Resources.Alert.landscape</p></div>
+    <div id="block_game" style="position: fixed; background-color: transparent; top: 0px; left: 0px; width: 100%; height: 100%; display:none"></div>
+</body>
+</html>

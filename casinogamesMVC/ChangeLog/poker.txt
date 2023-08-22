@@ -1,0 +1,6 @@
+- Credits Panel added
+- Bug fixed with Retina display
+
+21/03/2017:
+- Bug fixed with hand evaluator
+- Credits panel with show/hide feature (see section J in readme)

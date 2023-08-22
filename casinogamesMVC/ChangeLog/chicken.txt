@@ -1,0 +1,27 @@
+11/11/2014: 
+Minor Bug Fixed: The bonus game does not allowed you to choose the same chicken if it is shown more times.
+27/11/2014: 
+Bug fixed: win was not calculted correctly in CGame.js file 
+09/12/2014: 
+Minor bug fixed: Now game works properly also if launched locally
+11/12/2014: 
+Bug Fixed: user could make the first spin with 0$
+Sounds disabled on Windows Phone
+23/10/2015: 
+- FULL SCREEN feature added
+- win occurrence and cash slot param added for settings
+17/12/2015: 
+Added Event handler for wordpress plugin: http://codecanyon.net/item/ctl-arcade-wordpress-plugin/13856421
+-Added the missing miniefied version of the source code
+18/12/2015:
+-Missed miniefied version of the source code
+23/08/2016:
+-Readme file updated 
+- Bug fixed with win occurrence
+01/04/2017:
+- Credits Panel added with show/hide features
+- Orientation alert added
+- Button fullscreen added
+- Bug fixed with soundtrack on IOS devices
+- Bug fixed with Retina display
+- Bug fixed with hold feature and bonus panel

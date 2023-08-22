@@ -1,0 +1,12 @@
+03/04/2014: Game doesn’t load on Desktop Safari
+23/05/2014: user money may be negative – line button didn’t increase total bet New feature: max bet button works like spin button
+27/11/2014: Bug fixed: win was not calculated correctly in CGame.js file
+09/12/2014: Minor bug fixed: now game works also locally with all the browser Assets folder included
+11/12/2014: Bug Fixed: user could make the first spin with 0$
+Sounds disabled on Windows Phone
+08/09/2015: FULL SCREEN feature added
+Param win_occurrence added
+22/01/2016:
+- Added Event handler for WordPress plugin CTL Arcade: http://codecanyon.net/item/ctl-arcade-wordpress-plugin/13856421
+28/01/2016:
+-Added the missing assets folder in the package
